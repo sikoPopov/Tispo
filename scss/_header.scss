@@ -1,0 +1,62 @@
+
+
+.site-header{
+    width: 100%;
+    height: 30vw;
+    background: url('../gallery/head.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+}
+
+.site-title{
+    font-size: 10vw;
+    padding: 0.5em;
+    padding-bottom: 0;
+    padding-top: 1em;
+    color: var(--esential-color);
+    font-weight: normal;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    //text-shadow: 2.4px 2.4px #000000;
+    text-shadow: 5px 5px rgba(0, 89, 131, 0.5);
+    animation: slideLeft 1s;
+    //animation: slideLeft 1s ease-in forwards;
+}
+
+.site-description{
+    font-size: 2vw;
+    text-align: center;
+    padding-bottom: 2em;
+    color: var(--esential-color);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;
+    animation: slideRight 2s;
+    //animation: slideRight 2s ease-in forwards;
+}
+
+@keyframes slideLeft{
+    from{
+        opacity: 0;
+        transform: translateX(10rem);
+        color: black
+    }
+    to {opacity: 1;
+        transform: translateX(0);
+        color: var(--esential-color)
+         }
+        }
+
+
+@keyframes slideRight{
+    from{
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    to {opacity: 1;
+        transform: translateX(0);
+            }
+        } 

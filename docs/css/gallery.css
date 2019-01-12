@@ -1,0 +1,1 @@
+.grid-container{background:red;padding:1.2rem;display:grid;height:100%;gap:1rem;grid-template-columns:repeat(8,4em);grid-template-rows:repeat(8,4em)}.grid-box{background:#9acd32}

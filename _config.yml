@@ -1,0 +1,20 @@
+title: ТИСПО ООД
+email: s.popov@abv.bg
+phone: 0882941010
+
+baseurl: "/Tispo"
+description: Монтаж и Сервиз на Медицинска и Рентгенова Техника
+
+destination: "docs"
+markdown: kramdown
+plugins:
+  - jekyll-feed
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - node_modules
+ - .gitignore
+ - scss
+ - gulpfile.js
+ - package.json
+ - package-lock.json

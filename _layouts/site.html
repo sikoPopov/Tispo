@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>{{ site.title }}</title>
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" type="text/css" />
+	</head>
+        <body>
+			<div class="site">
+					<header class="site-header">
+                    	<div class="site-branding">
+                        	<p class="site-title">{{ site.title }}</p>
+                        	<p class="site-description">{{ site.description }}</p>
+						</div>
+					</header>	
+			<nav class="navigation main">
+                <ul>
+                    <li class="menu"><a href="{{ site.baseurl }}/">Начало</a></li>
+                    <li class="menu"><a href="{{ site.baseurl }}/about/">За нас</a></li>
+					<li class="menu"><a href="{{ site.baseurl }}/gallery/">Галерия</a></li>
+                    <li class="menu"><a href="{{ site.baseurl }}/contacts/">Contacts</a></li>
+                </ul>           
+			</nav>
+				<main class="site-content">
+					{{content}}
+					<ul class="social">
+						<li><a href="#" class="fa fa-facebook"></a></li>
+						<li><a href="#" class="fa fa-linkedin"></a></li>
+						<li><a href="#" class="fa fa-instagram"></a></li>
+						<li><a href="#" class="fa fa-google"></a></li>
+					</ul>
+				</main>
+					<footer class="site-footer">
+						
+					</footer>
+			</div>
+		</body>
+	</html>
