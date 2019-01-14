@@ -1,4 +1,4 @@
-.site-footer{
+/*.site-footer{
     background: url('../gallery/xray1.jpg') center;
     background-size: 60% 100%;
     padding-bottom: 2rem;
@@ -9,13 +9,14 @@
     height: 200px;
     //height: 50vh;
 
-}
+}*/
 
-/*.site-footer{
-    background: url('../gallery/footer.jpg');
-    background-size: 100% auto;
+.site-footer{
+    background: url('../gallery/tispoo.jpg') ;
+    background-size: 100% 70%;
     background-repeat: no-repeat;
+    padding-left: 5rem;
     opacity: 0.4;
     width: 100%;
-    height: 200px;
-}*/
+    height: 180px;
+}
