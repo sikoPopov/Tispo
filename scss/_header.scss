@@ -24,7 +24,8 @@
     //text-shadow: 2.4px 2.4px #000000;
     text-shadow: 5px 5px rgba(0, 89, 131, 0.5);
     animation: slideLeft 0.3s ease-in-out forwards;
-    //animation: slideLeft 1s ease-in forwards;
+    
+    
 }
 
 .site-description{
@@ -37,7 +38,7 @@
     font-weight: bold;
     text-shadow: 1px 1px #000000;
     animation: slideRight 0.6s ease-in-out forwards;
-    //animation: slideRight 2s ease-in forwards;
+    
 }
 
 @keyframes slideLeft{
@@ -61,4 +62,5 @@
     to {opacity: 1;
         transform: translateX(0);
             }
-        } 
+        }
+
