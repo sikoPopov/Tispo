@@ -9,12 +9,18 @@ body {
 	padding-left: 2.5em;
 	padding-right: 2.5em;
 	color: #808080;
-	img.post_ct {
+	img.post_ct, img.post_ren1, img.post_ren2, img.post_cr1, img.post_pr {
 		max-width: 30rem;
 		padding: 0.5rem;
 		background:#000000;
 		margin: 0 auto;
 		float: right;
+		@media screen and(max-width: 700px) {
+			max-height: 15rem;
+			float: left
+				
+		}		
+	
 	}
 	@media screen and(max-width: 700px) {
 		margin: 1.5em;
@@ -23,4 +29,26 @@ body {
 		margin-left: 8em;
 		margin-right: 8em;
 			}
+}
+
+.site-content img.post_cr2{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 40%;
+	@media screen and(max-width: 700px) {
+		//max-width: 30rem;
+		width: 200px;
+		margin-left: auto;
+  		margin-right: auto;
+		
+	}
+	@media screen and(min-width: 1024px) {
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 40%;
+	}
+		
+	
 }
