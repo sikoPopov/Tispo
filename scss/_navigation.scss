@@ -39,9 +39,10 @@ a{
   }
 a:hover{
     //color: #ffffff;
-    color: #ff9966;
-    border-top: 2px solid var(--esential-color);
-    border-bottom: 2px solid var(--esential-color);
+    //color: #ff9966;
+    color:#b10e81;
+    border-top: 2px solid  rgb(57, 2, 255); //var(--esential-color);
+    border-bottom: 2px solid  rgb(57, 2, 255); //var(--esential-color);
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
  } 

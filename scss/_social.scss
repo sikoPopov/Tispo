@@ -1,6 +1,10 @@
 .social{
     position: fixed;
     bottom: 160px; right: 0;
+    @media screen and(max-width: 700px){
+        display: none
+        
+      }
 
 li{
         list-style: none outside;
@@ -20,9 +24,12 @@ li{
 .fa:hover {
     color: #000000;
 }
-
-.fa-facebook {
-    background: #3B5998;
+.fa-maxcdn:hover {
+    color: white;
+    opacity: 0.4;
+}
+.fa-dot-circle-o {
+    background: red;
     color: #ffffff;
 }
 
@@ -31,12 +38,12 @@ li{
     color: #ffffff;
 }
 
-.fa-twitter {
-    background: #0077b5;
-    color: #ffffff;
+.fa-maxcdn {
+    background: grey;
+    color: black;
 }
-.fa-google {
-    background: #dd4b39;
-    color: #ffffff;
+.fa-wrench {
+    background: rgb(0, 109, 103);
+    color: yellow;
 }
   
